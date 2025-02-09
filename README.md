@@ -59,7 +59,16 @@
     
     <p id="message" class="hidden"></p>
 
-    <iframe width="0" height="0" src="https://youtu.be/jx28LXc3Yvw?si=Ad_cI6MNBmlHOzy2" frameborder="0" allow="autoplay"></iframe>
+    <button onclick="playMusic()">🎵 กดเพื่อเปิดเพลง</button>
+
+<iframe id="youtubePlayer" width="0" height="0" src="https://youtu.be/jx28LXc3Yvw?si=knVnR-t7ttC0hPW9" frameborder="0" allow="autoplay"></iframe>
+
+<script>
+    function playMusic() {
+        var iframe = document.getElementById("youtubePlayer");
+        iframe.src += "&autoplay=1";
+    }
+</script>
     
     <br>
     <button onclick="toggleMusic()">🔊 เปิด/ปิดเพลง</button>
