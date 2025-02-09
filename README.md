@@ -61,7 +61,7 @@
 
     <button onclick="playMusic()">🎵 กดเพื่อเปิดเพลง</button>
 
-<iframe id="youtubePlayer" width="0" height="0" src="https://youtu.be/jx28LXc3Yvw?si=knVnR-t7ttC0hPW9" frameborder="0" allow="autoplay"></iframe>
+<iframe id="youtubePlayer" width="0" height="0" src="https://www.youtube.com/embed/jx28LXc3Yvw?enablejsapi=1" frameborder="0" allow="autoplay"></iframe>
 
 <script>
     function playMusic() {
@@ -71,7 +71,7 @@
 </script>
     
     <br>
-    <button onclick="toggleMusic()">🔊 เปิด/ปิดเพลง</button>
+    
 
     <script>
         function showMessage() {
